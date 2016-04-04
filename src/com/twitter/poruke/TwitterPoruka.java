@@ -23,6 +23,7 @@ public class TwitterPoruka {
 	/**
 	 * Metoda setKorisnik() koja postavlja vrijednost atributa korisnik
 	 * @param korisnik
+	 * @throws RuntimeException() kada je proslijedjen null string ili prazan string
 	 */
 
 	public void setKorisnik(String korisnik) {
@@ -41,6 +42,7 @@ public class TwitterPoruka {
 	/**
 	 * Metoda setPoruka() koja postavlja vrijednost atributa poruka
 	 * @param poruka
+	 * @throws RuntimeException() kada je proslijedjen null string ili duzi od 140 karaktera
 	 */
 
 	public void setPoruka(String poruka) {
@@ -48,6 +50,7 @@ public class TwitterPoruka {
 			throw new RuntimeException("Poruka mora biti uneta i mora imati najvise 140 znakova");
 		this.poruka = poruka;
 	}
+	
 	/**
 	 * Metoda toString() koja prikazuje podatke atributa korisnik i poruka
 	 */
