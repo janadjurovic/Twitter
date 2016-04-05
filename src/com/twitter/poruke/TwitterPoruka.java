@@ -2,7 +2,7 @@ package com.twitter.poruke;
 
 /** 
  * Klasa TwitterPoruka
- *
+ * @author Jana Djurovic
  */
 
 public class TwitterPoruka {

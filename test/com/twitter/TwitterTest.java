@@ -14,7 +14,7 @@ import org.junit.Test;
 import com.twitter.poruke.TwitterPoruka;
 
 /**
- * @author Jana
+ * @author Jana Djurovic
  *
  */
 public class TwitterTest {

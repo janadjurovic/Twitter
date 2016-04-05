@@ -15,7 +15,7 @@ import org.junit.Test;
  */
 public class TwitterPorukaTest {
 	
-	TwitterPoruka t;
+	private TwitterPoruka t;
 
 	/**
 	 * @throws java.lang.Exception
